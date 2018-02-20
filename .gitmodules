@@ -1,6 +1,6 @@
-[submodule "NFD"]
-	path = NFD
-	url = https://github.com/named-data-ndnSIM/NFD
 [submodule "ndn-cxx"]
 	path = ndn-cxx
-	url = https://github.com/named-data-ndnSIM/ndn-cxx
+	url = https://github.com/spirosmastorakis/ndn-cxx-ndnSIM-2.5
+[submodule "NFD"]
+	path = NFD
+	url = https://github.com/spirosmastorakis/NFD-ndnSIM-2.5

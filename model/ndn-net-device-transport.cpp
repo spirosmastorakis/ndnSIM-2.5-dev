@@ -47,7 +47,7 @@ NetDeviceTransport::NetDeviceTransport(Ptr<Node> node,
   this->setScope(scope);
   this->setPersistency(persistency);
   this->setLinkType(linkType);
-  // this->setMtu(udp::computeMtu(m_socket.local_endpoint())); // not sure what should be here
+  this->setMtu(-1); // Unlimited MTU for now
 
   NS_LOG_FUNCTION(this << "Creating an ndnSIM transport instance for netDevice with URI"
                   << this->getLocalUri());
